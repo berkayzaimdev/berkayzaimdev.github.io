@@ -1,7 +1,34 @@
 
+body{
+  margin-left: auto;
+  margin-right: auto;
+}
 nav, footer {
     background-color: #1e6a83;
     font-family: 'Roboto';
+    min-height: 9vh;
+
+  }
+ 
+  .menu{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+   
+  }
+  .dv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+  }
+  .about{
+    min-height: 80vh;
+    max-height: max-content;
+  }
+  .title{
+    padding: 10px;
   }
     
   main {
@@ -20,6 +47,7 @@ nav, footer {
   #skills
   {
     padding-left:35%;padding-right:35%;
+    min-height: 90vh;
   }
 
   #intro {
@@ -29,13 +57,25 @@ nav, footer {
 
   #skills {
     background: radial-gradient(circle, rgb(193, 233, 236) 0%, rgb(142, 162, 235) 100%, rgb(175, 191, 238) 100%, rgba(116,128,167,1) 100%);
+    background: radial-gradient(circle, rgb(180 208 247) 0%, rgb(93 134 147) 100%, rgb(175, 191, 238) 100%, rgba(116,128,167,1) 100%);
     padding-top: 4.5em;
+    min-width: 100%;
+    min-height: 90vh;
   }
 
   .progress {
     width:100%;
+    height: 1.5rem;
+    
+    
   }
-
+  .bar {
+    background-color: #1e6a83;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.19em;
+    height:2.5vh;
+  }
   #typed-title-loc {
     color:#00afaf;
   }
@@ -45,12 +85,14 @@ nav, footer {
   }
   
   #projects{
-    background-color: #238a8a;
+    background-color: #4c9797;
+    background-color: #a3d3dd;
     color: white;
   }
   
   #projects a {
     color:white;
+   
   }
   
   #projects i {
@@ -62,3 +104,13 @@ nav, footer {
     font-family:"Source Code Pro";
     font-weight:bold
   }
+
+  label{
+    font-family:"Source Code Pro";
+    font-size: 1.4em;
+  }
+  p{
+    font-family:"roboto";
+    font-size: 1.2em;
+  }
+  

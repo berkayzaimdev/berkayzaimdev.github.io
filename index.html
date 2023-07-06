@@ -16,19 +16,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Code+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&family=Roboto:wght@100&family=Source+Code+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>Berkay Zaim</title>
 </head>
 
 <body>
   <nav id="top-nav" class="navbar fixed-top navbar-expand-sm navbar-dark">
-    <a class="navbar-brand fw-bolder" href="/">Berkay Zaim's Portfolio</a>
+    <a class="navbar-brand fw-bolder title" href="/">Berkay Zaim's Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse align-right" id="navbarNavAltMarkup">
-      <div id="top-menu" class="navbar-nav fw-bold">
+    <div class="menu" id="navbarNavAltMarkup">
+      <div id="top-menu" class="navbar-nav fw-bold ">
         <a class="nav-item nav-link" href="#intro">Intro</a>
         <a class="nav-item nav-link" href="#skills">Skills</a>
         <a class="nav-item nav-link" href="#projects">Projects</a>
@@ -40,18 +40,48 @@
     <section id="intro">
       <div class="container profile-box text-center p-4">
         <div class="row">
-          <div class="col-md mt-3 mb-3">
-            <img src="img/pp.png" id="profile-pic" class="d-inline-block" />
+          <div class="col-md mt-3 mb-3 ">
+            <div class="col-md mt-5 dv1">
+              <img src="pp.jpg" id="profile-pic" class="d-inline-block" />
+              <div>
+                <h1 id="h1-name">Berkay Zaim</h1>
+                <div id="typed-title">
+                  <h4>Sophomore Computer Engineering Student</h4>
+                </div>
+                <div id="typed-languages">
+                  <h4>Software Developer Intern at PortalGrup</h4>
+                </div>
+              </div>
+              
+            
           </div>
-          <div class="col-md mt-5">
-            <h1 id="h1-name">Berkay Zaim</h1>
-            <div id="typed-title">
-              <h4>Sophomore Computer Engineering Student</h4>
-            </div>
-            <div id="typed-languages">
-              <h4>Software Developer Intern at PortalGrup</h4>
-            </div>
+         
             <br/>
+            <h2 class="text-center mt-3">About Me</h2>
+            <div class="container">
+              <hr>
+              <p>I am Berkay. I am a sophomore computer engineering student. A Junior web developer from Istanbul, Turkey. I am into computer and software world since my childhood. My goal is becoming a Full-Stack Developer.</p>
+              <p>During my high school education, I studied in the field of Information Technologies, 
+                  specializing in Web Programming, at Istanbul Ticaret Odası Vocational and Technical Anatolian High School. 
+                  I successfully completed my education as the top student in the Anatolian Technical Program. 
+                  Throughout my studies, I gained knowledge in various programming languages such as HTML, CSS, PHP and SQL.
+                  After high school, I continued my education as a computer engineering student at the Marmara University. 
+                  In my university studies, I have learned languages such as C, Python, and Java. In addition, 
+                  I have also developed my skills in software disciplines such as data structures and algorithms.
+      
+              </p>
+              <p>Currently, I am working as a back-end intern, developing MVC projects using the .NET Core framework. 
+                  Furthermore, I have been immersing myself in modern front-end technologies to complement 
+                  my back-end development skills. I have been actively learning and exploring JavaScript frameworks, 
+                  articularly React, to build dynamic and interactive user interfaces. 
+                  Additionally, I have been honing my proficiency in HTML5 and CSS3, enabling me to create responsive 
+                  and visually appealing web applications.
+                  By combining my expertise in back-end development with my growing front-end skills, 
+                  I aim to become a well-rounded full-stack developer. 
+                  I am passionate about delivering seamless user experiences through effective 
+                  collaboration between the back-end and front-end components of a project.
+              </p>
+            </div>
             <a href="mailto:berkayzaimdev@gmail.com" target="_top"><button type="button" class="btn btn-info" style="color:white">Contact Me</button></a>
           </div>
         </div>
@@ -60,67 +90,67 @@
     <section id="skills">
         <h2 class="text-center mt-3">Skills</h2>
         <div class="wrapper">
-           <div class="container">
+           <div class="container-xl">
                <div class="row">
-                    <div class="col-md-12 ">
+                    <div class="col-lg-12">
                         <div class="mb-3">    
                             <label>HTML</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                <div class="bar" style="width: 80%  "  role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >80%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>CSS</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                <div class="bar " style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>JavaScript</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 40%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                <div class="bar " style="width: 40%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>SQL</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                                <div class="bar " style="width: 80%" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>PHP</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                <div class="bar " style="width: 30%" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>C</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 40%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                                <div class="bar"  style="width: 40%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>Python</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                                <div class="bar " style="width: 60%" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>Java</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                <div class="bar " style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>C#</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 90%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                <div class="bar " style="width: 90%" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label>.NET Core</label>
                             <div class="progress">
-                                <div class="progress-bar bg-info" style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                                <div class="bar " style="width: 70%" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
                             </div>
                         </div>
                     </div>
@@ -167,6 +197,9 @@
       </div>
       </div>
     </section>
+    <!--
+
+    
     <section id="about">
       <h2 class="text-center mt-3">About Me</h2>
       <div class="container">
@@ -194,6 +227,7 @@
         </p>
       </div>
     </section>
+  -->
     <footer class="footer text-center">
       <div class="container">
         <div class="row">
