@@ -1,0 +1,64 @@
+
+nav, footer {
+    background-color: #1e6a83;
+    font-family: 'Roboto';
+  }
+    
+  main {
+    min-height:90vh;
+  }
+    
+  footer {
+    color:white;
+  }
+
+  #intro, #skills, #projects, #about, footer {
+    padding-top: 2.75em;
+    padding-bottom: 2.75em;
+  }
+
+  #skills
+  {
+    padding-left:35%;padding-right:35%;
+  }
+
+  #intro {
+    background: radial-gradient(circle, rgb(222, 255, 228) 0%, rgb(128, 178, 235) 100%);
+    padding-top: 4.5em;
+  }
+
+  #skills {
+    background: radial-gradient(circle, rgb(193, 233, 236) 0%, rgb(142, 162, 235) 100%, rgb(175, 191, 238) 100%, rgba(116,128,167,1) 100%);
+    padding-top: 4.5em;
+  }
+
+  .progress {
+    width:100%;
+  }
+
+  #typed-title-loc {
+    color:#00afaf;
+  }
+
+  #profile-pic {
+    max-width:350px;
+  }
+  
+  #projects{
+    background-color: #238a8a;
+    color: white;
+  }
+  
+  #projects a {
+    color:white;
+  }
+  
+  #projects i {
+    font-size: 3em;
+  }
+
+  h2
+  {
+    font-family:"Source Code Pro";
+    font-weight:bold
+  }
